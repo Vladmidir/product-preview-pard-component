@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+@media (max-width: 1440px) {
+    main {
+      flex-direction: column;
+    }
+}
+
+.perfume-img {
+    height: 500px;
+    border-radius: 15px 0 0 15px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 500px;
+    border-radius: 0 15px 15px 0;
+    width: 314px;
+    padding-left: 20px;
+}
+
+.new-price {
+    font-size: 1.5em;
+    color: hsl(158, 36%, 37%);
+}
+
+.button {
+    background-color: hsl(158, 36%, 37%);
+    text-align: center;
+    color: white;
+    margin-top: 25px 25px 25px 25px;   
+    max-width: 70%;
+    height: 50px;
+}
